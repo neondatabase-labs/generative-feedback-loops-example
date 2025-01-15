@@ -4,7 +4,7 @@ This project implements a **personalized podcast recommendation solution** with 
 
 As vector search and Retrieval Augmented Generation(RAG) become mainstream for Generative AI (GenAI) use cases, we’re looking ahead to what’s next. GenAI primarily operates in a one-way direction, generating content based on input data. Generative Feedback Loops (GFL) are focused on optimizing and improving the AI’s outputs over time through a cycle of feedback and learnings based on the production data.  In GFL, results generated from Large Language Models (LLMs) like GPT are vectorized, indexed, and saved back into vector storage for better-filtered semantic search operations. This creates a dynamic cycle that adapts LLMs to new and continuously changing data, and user needs. GFL offers personalized, up-to-date summaries and suggestions.
 
-![What is Generative Feedback Loops](/assets/what%20is%20feedback%20loop.png)
+![What is Generative Feedback Loops](/assets/what-is-feedback-loop.png)
 
 ---
 

@@ -1,6 +1,6 @@
 # Generative Feedback Loops Example
 
-This project implements a **personalized podcast recommendation solution** with [**Neon**](https://neon.tech/), [**Azure OpenAI**](https://azure.microsoft.com/en-us/products/ai-services/openai-service), and [**Azure Functions**](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview). The solution dynamically analyzes user preferences and podcast data to provide highly relevant suggestions in real-time. It uses the **Generative Feedback Loops** (GFL) mechanism to continuously learn from new user interactions and content updates. Read more on how to guide blog.
+This project implements a **personalized podcast recommendation solution** with [**Neon**](https://neon.tech/), [**Azure OpenAI**](https://azure.microsoft.com/en-us/products/ai-services/openai-service), and [**Azure Functions**](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview). The solution dynamically analyzes user preferences and podcast data to provide highly relevant suggestions in real-time. It uses the **Generative Feedback Loops** (GFL) mechanism to continuously learn from new user interactions and content updates. Read more on [how to guide blog post](https://neon.tech/blog/generative-feedback-loops-with-neon-serverless-postgres-azure-functions-and-azure-openai).
 
 ## What is Generative Feedback Loops
 

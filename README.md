@@ -1,10 +1,12 @@
-This project implements a **personalized podcast recommendation solution** with [**Neon**](https://neon.tech/), [**Azure OpenAI**](https://azure.microsoft.com/en-us/products/ai-services/openai-service), and [**Azure Functions**](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview). The solution dynamically analyzes user preferences and podcast data to provide highly relevant suggestions in real-time. It uses the **Generative Feedback Loops** (GFL) mechanism to continuously learn from new user interactions and content updates. Read more on how to guide blog.
+# Generative Feedback Loops Example
+
+This project implements a **personalized podcast recommendation solution** with [**Neon**](https://neon.tech/), [**Azure OpenAI**](https://azure.microsoft.com/en-us/products/ai-services/openai-service), and [**Azure Functions**](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview). The solution dynamically analyzes user preferences and podcast data to provide highly relevant suggestions in real-time. It uses the **Generative Feedback Loops** (GFL) mechanism to continuously learn from new user interactions and content updates. Read more on [how to guide blog post](https://neon.tech/blog/generative-feedback-loops-with-neon-serverless-postgres-azure-functions-and-azure-openai).
 
 ## What is Generative Feedback Loops
 
 As vector search and Retrieval Augmented Generation(RAG) become mainstream for Generative AI (GenAI) use cases, we’re looking ahead to what’s next. GenAI primarily operates in a one-way direction, generating content based on input data. Generative Feedback Loops (GFL) are focused on optimizing and improving the AI’s outputs over time through a cycle of feedback and learnings based on the production data.  In GFL, results generated from Large Language Models (LLMs) like GPT are vectorized, indexed, and saved back into vector storage for better-filtered semantic search operations. This creates a dynamic cycle that adapts LLMs to new and continuously changing data, and user needs. GFL offers personalized, up-to-date summaries and suggestions.
 
-![What is Generative Feedback Loops](/assets/what%20is%20feedback%20loop.png)
+![What is Generative Feedback Loops](/assets/what-is-feedback-loop.png)
 
 ---
 
